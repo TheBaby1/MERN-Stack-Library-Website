@@ -39,27 +39,27 @@ const ShowBook = () => {
 
                     <div className='my-4'>
                         <span className='text-xl mr-4 text-gray-500'>Title</span>
-                        <span>{book._title}</span>
+                        <span>{book.title}</span>
                     </div>
 
                     <div className='my-4'>
                         <span className='text-xl mr-4 text-gray-500'>Author</span>
-                        <span>{book._author}</span>
+                        <span>{book.author}</span>
                     </div>
 
                     <div className='my-4'>
                         <span className='text-xl mr-4 text-gray-500'>PublishYear</span>
-                        <span>{book._publishYear}</span>
+                        <span>{book.publishYear}</span>
                     </div>
 
                     <div className='my-4'>
                         <span className='text-xl mr-4 text-gray-500'>Creation Time</span>
-                        <span>{new Date(book.createdAt).toString}</span>
+                        <span>{new Date(book.createdAt).toString()}</span>
                     </div>
 
                     <div className='my-4'>
                         <span className='text-xl mr-4 text-gray-500'>Last Updated Time</span>
-                        <span>{new Date(book.updatedAt).toString}</span>
+                        <span>{new Date(book.updatedAt).toString()}</span>
                     </div>
                 </div>
             )}
